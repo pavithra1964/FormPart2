@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "python",
+    "editor.formatOnSave": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
+    "python.linting.pylintEnabled": true,
+    "venvPath": "${workspaceFolder}/backend/env/bin/python",
+    "linting.pycodestyleArgs": ["--ignor=E501"]
+}
